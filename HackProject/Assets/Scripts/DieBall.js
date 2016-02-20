@@ -11,5 +11,8 @@ function onCollisionEnter (col: Collision) {
         //col.gameObject.GetComponent<PlayerDie>().Dead (no se puede porque es privada)
         Destroy(col.gameObject);
     }
+    else if (col.gameObject.tag == "RotationBarrier") {
+   		Destroy(col.gameObject); 
+    }
 
 }

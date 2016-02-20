@@ -16,11 +16,7 @@ GameObject:
   - 54: {fileID: 5460114}
   m_Layer: 0
   m_Name: UpDownWall
-<<<<<<< HEAD
   m_TagString: UpDownWall
-=======
-  m_TagString: Untagged
->>>>>>> fd68f11ed1c9c015399abdde1cce67659aa69507
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
