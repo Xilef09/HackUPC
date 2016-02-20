@@ -20,10 +20,10 @@ function Update () {
 	if (time > periode) {
 		time = 0;
 		var speed : float = Random.Range (3.0f, maxSpeed);
-		var position : Vector3 = transform.position + Vector3(0, 0, 3);
+		//var position : Vector3 = transform.position + Vector3(0, 0, 3);
 		var instantiatedenemy : Rigidbody =
 			Rigidbody.Instantiate(enemy, 
-				position, transform.rotation);
+				transform.position, transform.rotation);
 				
 		
 		instantiatedenemy.velocity = 
