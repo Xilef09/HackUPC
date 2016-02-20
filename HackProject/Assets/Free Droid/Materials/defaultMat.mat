@@ -97,11 +97,19 @@ Material:
       data:
         first:
           name: _Cutoff
+<<<<<<< HEAD
         second: 0.5
       data:
         first:
           name: _Parallax
         second: 0.02
+=======
+        second: .5
+      data:
+        first:
+          name: _Parallax
+        second: .0199999996
+>>>>>>> 4a30899c56675bfb534e204eb3e90403a2f21b3b
       data:
         first:
           name: _ZWrite
@@ -109,7 +117,11 @@ Material:
       data:
         first:
           name: _Glossiness
+<<<<<<< HEAD
         second: 0.596
+=======
+        second: .596000016
+>>>>>>> 4a30899c56675bfb534e204eb3e90403a2f21b3b
       data:
         first:
           name: _BumpScale
@@ -133,7 +145,11 @@ Material:
       data:
         first:
           name: _Metallic
+<<<<<<< HEAD
         second: 0.132
+=======
+        second: .131999999
+>>>>>>> 4a30899c56675bfb534e204eb3e90403a2f21b3b
       data:
         first:
           name: _EmissionScaleUI
@@ -146,11 +162,19 @@ Material:
       data:
         first:
           name: _Color
+<<<<<<< HEAD
         second: {r: 0.8, g: 0.8, b: 0.8, a: 1}
       data:
         first:
           name: _SpecColor
         second: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+=======
+        second: {r: .800000012, g: .800000012, b: .800000012, a: 1}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: .200000003, g: .200000003, b: .200000003, a: 1}
+>>>>>>> 4a30899c56675bfb534e204eb3e90403a2f21b3b
       data:
         first:
           name: _EmissionColorUI

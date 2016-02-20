@@ -23,9 +23,9 @@ public class PlayerMove : MonoBehaviour {
 
 		Vector3 movement = new Vector3 (moveHorizontal, 0.0f, moveVertical);
 		rb.AddForce (movement * speed);
-	}
+    }
 
-	/*void OnTriggerEnter(Collider other) {
+    /*void OnTriggerEnter(Collider other) {
 		if (other.gameObject.CompareTag ("Pick up")) {
 			other.gameObject.SetActive (false);
 			count = count + 1;
@@ -36,10 +36,10 @@ public class PlayerMove : MonoBehaviour {
 	{
 		var otherRigidbody = collision.rigidbody;
 
-		if (otherRigidbody != null && otherRigidbody != rigidbody)
+		if (otherRigidbody != null && otherRigidbody != GetComponent<Rigidbody>())
 		{
-			var currentVelocity = rigidbody.constantForce.force;
-			otherRigidbody.AddForce(rigidbody.constantForce.force, ForceMode.Force); 
+			var currentVelocity = GetComponent<Rigidbody>().GetComponent<ConstantForce>().force;
+			otherRigidbody.AddForce(GetComponent<Rigidbody>().GetComponent<ConstantForce>().force, ForceMode.Force); 
 		}
 	}
 }

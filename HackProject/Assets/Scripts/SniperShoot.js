@@ -19,11 +19,17 @@ function Update () {
 	//enemy = GameObject.FindGameObjectWithTag("NormalSphere").GetComponent.<Rigidbody>();
 	if (time > periode) {
 		time = 0;
+<<<<<<< HEAD
 		var speed : float = 3.0f;
 		var position : Vector3 = transform.position + Vector3(0, 0, 3);
+=======
+		var speed : float = Random.Range (3.0f, maxSpeed);
+		var position : Vector3 = transform.position;// + Vector3(0, 0, 3);
+		//var position : Vector3 = transform.position + Vector3(0, 0, 3);
+>>>>>>> 4a30899c56675bfb534e204eb3e90403a2f21b3b
 		var instantiatedenemy : Rigidbody =
 			Rigidbody.Instantiate(enemy, 
-				position, transform.rotation);
+				transform.position, transform.rotation);
 				
 		
 		instantiatedenemy.velocity = 
