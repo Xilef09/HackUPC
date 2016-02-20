@@ -60,15 +60,6 @@ PlayerSettings:
   xboxSpeechDB: 0
   xboxEnableHeadOrientation: 0
   xboxEnableGuest: 0
-<<<<<<< HEAD
-=======
-  xboxEnablePIXSampling: 0
-  n3dsDisableStereoscopicView: 0
-  n3dsEnableSharedListOpt: 1
-  n3dsEnableVSync: 0
-  uiUse16BitDepthBuffer: 0
-  ignoreAlphaClear: 0
->>>>>>> 80bc484073d5edd90309a91d07da0f0de08c697c
   xboxOneResolution: 0
   ps3SplashScreen: {fileID: 0}
   videoMemoryForVertexBuffers: 0
@@ -87,7 +78,7 @@ PlayerSettings:
   metroEnableLowLatencyPresentationAPI: 0
   xboxOneDisableKinectGpuReservation: 0
   virtualRealitySupported: 0
-  productGUID: e0bbd6b99233045968de9673703b26f1
+  productGUID: 7655f1a2a4f4ca84eaea4952d2adf7d3
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 9
   AndroidPreferredInstallLocation: 1
@@ -118,13 +109,6 @@ PlayerSettings:
   iPadHighResPortraitSplashScreen: {fileID: 0}
   iPadLandscapeSplashScreen: {fileID: 0}
   iPadHighResLandscapeSplashScreen: {fileID: 0}
-<<<<<<< HEAD
-=======
-  appleTVSplashScreen: {fileID: 0}
-  tvOSSmallIconLayers: []
-  tvOSLargeIconLayers: []
-  tvOSTopShelfImageLayers: []
->>>>>>> 80bc484073d5edd90309a91d07da0f0de08c697c
   iOSLaunchScreenType: 0
   iOSLaunchScreenPortrait: {fileID: 0}
   iOSLaunchScreenLandscape: {fileID: 0}
@@ -213,7 +197,7 @@ PlayerSettings:
   ps4ApplicationParam3: 0
   ps4ApplicationParam4: 0
   ps4GarlicHeapSize: 2048
-  ps4Passcode: mWqBlQ9wQj99nsQzldVI5ZuGXbEWRK5R
+  ps4Passcode: eaoEiIgxIX4a2dREbbSqWy6yhKIDCdJO
   ps4pnSessions: 1
   ps4pnPresence: 1
   ps4pnFriends: 1
@@ -237,7 +221,7 @@ PlayerSettings:
   psp2LiveAreaTrialPath: 
   psp2PatchChangeInfoPath: 
   psp2PatchOriginalPackage: 
-  psp2PackagePassword: hRXdCdG5nG5azdNMK66MuCV6GXi5xr84
+  psp2PackagePassword: yapnxrpMCARCr4zdGc81tBDKsMlaZTXC
   psp2KeystoneFile: 
   psp2MemoryExpansionMode: 0
   psp2DRMType: 0
@@ -327,9 +311,9 @@ PlayerSettings:
   metroWideTileShowName: 0
   metroDefaultTileSize: 1
   metroTileForegroundText: 1
-  metroTileBackgroundColor: {r: .13333334, g: .172549024, b: .215686277, a: 0}
-  metroSplashScreenBackgroundColor: {r: .13333334, g: .172549024, b: .215686277, a: 1}
-  metroSplashScreenUseBackgroundColor: 1
+  metroTileBackgroundColor: {r: 0, g: 0, b: 0, a: 1}
+  metroSplashScreenBackgroundColor: {r: 0, g: 0, b: 0, a: 1}
+  metroSplashScreenUseBackgroundColor: 0
   platformCapabilities: {}
   metroFTAName: 
   metroFTAFileTypes: []
@@ -383,29 +367,21 @@ PlayerSettings:
   XboxOneAllowedProductIds: []
   XboxOnePersistentLocalStorageSize: 0
   intPropertyNames:
-  - Android::ScriptingBackend
   - Metro::ScriptingBackend
-  - Standalone::ScriptingBackend
   - WP8::ScriptingBackend
   - WebGL::ScriptingBackend
   - WebGL::audioCompressionFormat
   - WebGL::exceptionSupport
   - WebGL::memorySize
-  - WebPlayer::ScriptingBackend
   - iOS::Architecture
-  - iOS::EnableIncrementalBuildSupportForIl2cpp
   - iOS::ScriptingBackend
-  Android::ScriptingBackend: 0
   Metro::ScriptingBackend: 2
-  Standalone::ScriptingBackend: 0
   WP8::ScriptingBackend: 2
   WebGL::ScriptingBackend: 1
   WebGL::audioCompressionFormat: 4
   WebGL::exceptionSupport: 1
   WebGL::memorySize: 256
-  WebPlayer::ScriptingBackend: 0
   iOS::Architecture: 2
-  iOS::EnableIncrementalBuildSupportForIl2cpp: 1
   iOS::ScriptingBackend: 1
   boolPropertyNames:
   - WebGL::analyzeBuildSize
