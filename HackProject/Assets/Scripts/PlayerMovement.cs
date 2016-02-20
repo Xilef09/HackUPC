@@ -26,10 +26,6 @@ public class PlayerMovement : MonoBehaviour {
 		moveDirection.y -= gravity * Time.deltaTime;
 		//Making the character move
 		controller.Move(moveDirection * Time.deltaTime);
-        if (transform.position.y >= -10)
-        {
-            Application.LoadLevel(Application.loadedLevel);
-        }
             
 	}
 }
