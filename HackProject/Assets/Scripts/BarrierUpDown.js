@@ -9,7 +9,7 @@ function Start () {
 
 function Update () {
     //Debug.Log("1");
-    if (transform.position.y >= 10){ 
+    if (transform.position.y >= 230){ 
         goingUp = -1;
     }
 
