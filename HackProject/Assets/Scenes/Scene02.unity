@@ -283,7 +283,7 @@ MeshRenderer:
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
   m_ReflectionProbeUsage: 1
-  m_ProbeAnchor: {fileID: 0}
+  m_ProbeAnchor: {fileID: 424874, guid: 11e1824d428ff477f911446a3827819d, type: 2}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 1
   m_IgnoreNormalsForChartDetection: 0
@@ -320,7 +320,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1314379092}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.048581, y: 1.51, z: -6.73}
+  m_LocalPosition: {x: 6.048581, y: 1.51, z: -7.96}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -336,9 +336,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19516bd7b0ffc48d293b6770e974cb73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemy: {fileID: 0}
-  maxSpeed: 10
-  periode: 0.5
+  enemy: {fileID: 5451610, guid: 11e1824d428ff477f911446a3827819d, type: 2}
 --- !u!1 &1745617583
 GameObject:
   m_ObjectHideFlags: 0
