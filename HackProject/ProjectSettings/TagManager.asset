@@ -7,6 +7,7 @@ TagManager:
   - NormalSphere
   - UpDownWall
   - RotationBarrier
+  - End
   - New Tag
   layers:
   - Default
