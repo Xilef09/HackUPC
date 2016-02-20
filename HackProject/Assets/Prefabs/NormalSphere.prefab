@@ -13,7 +13,11 @@ GameObject:
   - 23: {fileID: 2359226}
   - 54: {fileID: 5451610}
   - 114: {fileID: 11493268}
+<<<<<<< HEAD
   - 114: {fileID: 11419978}
+=======
+  - 114: {fileID: 11463672}
+>>>>>>> fd68f11ed1c9c015399abdde1cce67659aa69507
   m_Layer: 0
   m_Name: NormalSphere
   m_TagString: Untagged
@@ -79,7 +83,11 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+<<<<<<< HEAD
 --- !u!114 &11419978
+=======
+--- !u!114 &11463672
+>>>>>>> fd68f11ed1c9c015399abdde1cce67659aa69507
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
