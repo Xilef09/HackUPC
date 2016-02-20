@@ -23,9 +23,9 @@ public class PlayerMove : MonoBehaviour {
 
 		Vector3 movement = new Vector3 (moveHorizontal, 0.0f, moveVertical);
 		rb.AddForce (movement * speed);
-	}
+    }
 
-	/*void OnTriggerEnter(Collider other) {
+    /*void OnTriggerEnter(Collider other) {
 		if (other.gameObject.CompareTag ("Pick up")) {
 			other.gameObject.SetActive (false);
 			count = count + 1;
