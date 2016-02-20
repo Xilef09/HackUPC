@@ -5,7 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - NormalSphere
-  - New Tag
+  - Plataform
+  - Fire
   layers:
   - Default
   - TransparentFX

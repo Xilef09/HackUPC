@@ -19,7 +19,7 @@ function Update () {
 	//enemy = GameObject.FindGameObjectWithTag("NormalSphere").GetComponent.<Rigidbody>();
 	if (time > periode) {
 		time = 0;
-		var speed : float = Random.Range (3.0f, maxSpeed);
+		var speed : float = 3.0f;
 		var position : Vector3 = transform.position + Vector3(0, 0, 3);
 		var instantiatedenemy : Rigidbody =
 			Rigidbody.Instantiate(enemy, 

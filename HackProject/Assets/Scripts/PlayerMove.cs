@@ -31,4 +31,15 @@ public class PlayerMove : MonoBehaviour {
 			count = count + 1;
 		}
 	}*/
+
+	public void OnCollisionStay(Collision collision)
+	{
+		var otherRigidbody = collision.rigidbody;
+
+		if (otherRigidbody != null && otherRigidbody != rigidbody)
+		{
+			var currentVelocity = rigidbody.constantForce.force;
+			otherRigidbody.AddForce(rigidbody.constantForce.force, ForceMode.Force); 
+		}
+	}
 }
