@@ -6,9 +6,6 @@ private var player: Transform;
 
 function Start () {
 	player = GameObject.FindGameObjectWithTag("Player").transform;
-	var cube = GameObject.CreatePrimitive(PrimitiveType.Cube);
-    cube.AddComponent.<Rigidbody>();
-    cube.transform.position = Vector3 (14, 3, -3);
 }
 /*
 function LateUpdate () {
@@ -16,7 +13,7 @@ function LateUpdate () {
 }*/
 
 function Update () {
-	var aux : Vector3 = 4 * player.up - 3.0 * player.forward;
+	/*var aux : Vector3 = 4 * player.up - 3.0 * player.forward;
 	transform.position = player.position + aux;
-	transform.LookAt(player, player.up);
+	transform.LookAt(player, player.up);*/
 }
