@@ -9,11 +9,12 @@ function Start () {
 
 function Update () {
     //Debug.Log("1");
+    Debug.Log(transform.position.y);
     if (transform.position.y >= 10){ 
         goingUp = -1;
     }
 
-    else if (transform.position.y <= 1) {
+    else if (transform.position.y <= 4) {
         goingUp = 1;
     }
     transform.position += Vector3.up*speed*Time.deltaTime*goingUp;
