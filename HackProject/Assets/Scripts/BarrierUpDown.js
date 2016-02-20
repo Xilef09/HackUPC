@@ -9,7 +9,7 @@ function Start () {
 
 function Update () {
     //Debug.Log("1");
-    Debug.Log(transform.position.y);
+    //Debug.Log(transform.position.y);
     if (transform.position.y >= 10){ 
         goingUp = -1;
     }
