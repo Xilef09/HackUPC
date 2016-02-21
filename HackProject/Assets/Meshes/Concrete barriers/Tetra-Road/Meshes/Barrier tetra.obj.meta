@@ -7,7 +7,11 @@ labels:
 - Industrial
 - Prop
 ModelImporter:
+<<<<<<< HEAD
   serializedVersion: 19
+=======
+  serializedVersion: 18
+>>>>>>> f8eb1518a4770665919ad92a8bf2d5ffca202690
   fileIDToRecycleName:
     100000: barrier
     100002: //RootNode
@@ -34,7 +38,10 @@ ModelImporter:
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
+<<<<<<< HEAD
     resampleRotations: 1
+=======
+>>>>>>> f8eb1518a4770665919ad92a8bf2d5ffca202690
     optimizeGameObjects: 0
     motionNodeName: 
     animationImportErrors: 
@@ -42,16 +49,26 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     animationCompression: 1
+<<<<<<< HEAD
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
+=======
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+>>>>>>> f8eb1518a4770665919ad92a8bf2d5ffca202690
     animationWrapMode: 0
     extraExposedTransformPaths: []
     clipAnimations: []
     isReadable: 1
   meshes:
     lODScreenPercentages: []
+<<<<<<< HEAD
     globalScale: 0.1
+=======
+    globalScale: .100000001
+>>>>>>> f8eb1518a4770665919ad92a8bf2d5ffca202690
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1
@@ -68,13 +85,20 @@ ModelImporter:
     useFileScale: 0
   tangentSpace:
     normalSmoothAngle: 60
+<<<<<<< HEAD
     normalImportMode: 0
     tangentImportMode: 4
+=======
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+>>>>>>> f8eb1518a4770665919ad92a8bf2d5ffca202690
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
     human: []
     skeleton: []
+<<<<<<< HEAD
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
@@ -87,6 +111,18 @@ ModelImporter:
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 0
   humanoidOversampling: 1
+=======
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+>>>>>>> f8eb1518a4770665919ad92a8bf2d5ffca202690
   additionalBone: 0
   userData: 
   assetBundleName: 

@@ -21,6 +21,7 @@ function OnControllerColliderHit(hit : ControllerColliderHit) {
 	if (hit.gameObject.tag == "End") {
 		Debug.Log("FIIIIIN");
 		finished = true;
-		Time.timeScale = 0.0;
+		//Time.timeScale = 0.0;
+		Application.LoadLevel(2);
 	}
 }
