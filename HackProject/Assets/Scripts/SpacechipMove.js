@@ -4,7 +4,7 @@ public var speed : float = 10f;
 private var goingUp : int = 1;
 public var enemy: Rigidbody;
 private var maxSpeed : float = 10;
-private var periode : float = 1.5;
+private var periode : float = 0.5;
 
 private var time : float = 0;
 
@@ -13,7 +13,6 @@ function Start () {
 }
 
 function Update () {
-	Debug.Log(goingUp);
 	if (transform.position.x >= 20){ 
         goingUp = -1;
         //transform.rotation = Quaternion.AngleAxis(180, Vector3.forward);
