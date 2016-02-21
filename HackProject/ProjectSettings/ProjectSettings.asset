@@ -68,10 +68,7 @@ PlayerSettings:
   n3dsEnableSharedListOpt: 1
   n3dsEnableVSync: 0
   uiUse16BitDepthBuffer: 0
-<<<<<<< HEAD
   ignoreAlphaClear: 0
-=======
->>>>>>> b692c66e45658afd2df9c310867a44b603ab2750
   xboxOneResolution: 0
   ps3SplashScreen: {fileID: 0}
   videoMemoryForVertexBuffers: 0
@@ -99,7 +96,7 @@ PlayerSettings:
   metroEnableLowLatencyPresentationAPI: 0
   xboxOneDisableKinectGpuReservation: 0
   virtualRealitySupported: 0
-  productGUID: fc03f645eb99f41ac98821d3bddc8c2e
+  productGUID: b21ac5ea8304a5f4bbf3dcd0f6441a98
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 9
   AndroidPreferredInstallLocation: 1
@@ -137,12 +134,9 @@ PlayerSettings:
   iPadLandscapeSplashScreen: {fileID: 0}
   iPadHighResLandscapeSplashScreen: {fileID: 0}
   appleTVSplashScreen: {fileID: 0}
-<<<<<<< HEAD
   tvOSSmallIconLayers: []
   tvOSLargeIconLayers: []
   tvOSTopShelfImageLayers: []
-=======
->>>>>>> b692c66e45658afd2df9c310867a44b603ab2750
   iOSLaunchScreenType: 0
   iOSLaunchScreenPortrait: {fileID: 0}
   iOSLaunchScreenLandscape: {fileID: 0}
@@ -175,17 +169,7 @@ PlayerSettings:
     banner: {fileID: 0}
   androidGamepadSupportLevel: 0
   resolutionDialogBanner: {fileID: 0}
-<<<<<<< HEAD
-  m_BuildTargetIcons:
-  - m_BuildTarget: 
-    m_Icons:
-    - serializedVersion: 2
-      m_Icon: {fileID: 0}
-      m_Width: 27987
-      m_Height: 27987
-=======
   m_BuildTargetIcons: []
->>>>>>> b692c66e45658afd2df9c310867a44b603ab2750
   m_BuildTargetBatching: []
   m_BuildTargetGraphicsAPIs: []
   webPlayerTemplate: APPLICATION:Default
@@ -272,7 +256,7 @@ PlayerSettings:
   ps4ApplicationParam4: 0
   ps4DownloadDataSize: 0
   ps4GarlicHeapSize: 2048
-  ps4Passcode: OzwvSikHFswuzleht6xGbotuQQgmO6Gk
+  ps4Passcode: frAQBc8Wsa1xVPfvJcrgRYwTiizs2trQ
   ps4pnSessions: 1
   ps4pnPresence: 1
   ps4pnFriends: 1
@@ -309,7 +293,7 @@ PlayerSettings:
   psp2LiveAreaTrialPath: 
   psp2PatchChangeInfoPath: 
   psp2PatchOriginalPackage: 
-  psp2PackagePassword: dAqwedXNRRadbLMZROaAfZDAWhxgqRqc
+  psp2PackagePassword: F69AzBlax3CF3EDNhm3soLBPh71Yexui
   psp2KeystoneFile: 
   psp2MemoryExpansionMode: 0
   psp2DRMType: 0
@@ -431,15 +415,7 @@ PlayerSettings:
   boolPropertyNames:
   - XboxOne::enus
   XboxOne::enus: 1
-<<<<<<< HEAD
-  stringPropertyNames:
-  - WebGL::emscriptenArgs
-  - WebGL::template
-  WebGL::emscriptenArgs: 
-  WebGL::template: APPLICATION:Default
-=======
   stringPropertyNames: []
->>>>>>> b692c66e45658afd2df9c310867a44b603ab2750
   cloudProjectId: 
   projectName: 
   organizationId: 
