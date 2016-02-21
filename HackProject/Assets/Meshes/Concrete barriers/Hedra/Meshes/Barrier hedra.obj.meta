@@ -7,41 +7,28 @@ labels:
 - Prop
 - Hedra
 ModelImporter:
-<<<<<<< HEAD
-  serializedVersion: 19
-=======
   serializedVersion: 18
->>>>>>> f8eb1518a4770665919ad92a8bf2d5ffca202690
   fileIDToRecycleName:
-    100000: Hedra
-    100002: //RootNode
+    100000: //RootNode
+    100002: Barrier_hedra
     100004: Barrier_hedra_collider
-    100006: Barrier_hedra
-    400000: Hedra
-    400002: //RootNode
+    400000: //RootNode
+    400002: Barrier_hedra
     400004: Barrier_hedra_collider
-    400006: Barrier_hedra
-    2300000: Hedra
+    2300000: Barrier_hedra
     2300002: Barrier_hedra_collider
-    2300004: Barrier_hedra
-    3300000: Hedra
+    3300000: Barrier_hedra
     3300002: Barrier_hedra_collider
-    3300004: Barrier_hedra
-    4300000: Hedra
+    4300000: Barrier_hedra
     4300002: Barrier_hedra_collider
-    4300004: Barrier_hedra
     9500000: //RootNode
   materials:
-    importMaterials: 0
+    importMaterials: 1
     materialName: 0
-    materialSearch: 0
+    materialSearch: 1
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
-<<<<<<< HEAD
-    resampleRotations: 1
-=======
->>>>>>> f8eb1518a4770665919ad92a8bf2d5ffca202690
     optimizeGameObjects: 0
     motionNodeName: 
     animationImportErrors: 
@@ -49,29 +36,19 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     animationCompression: 1
-<<<<<<< HEAD
-    animationRotationError: 0.5
-    animationPositionError: 0.5
-    animationScaleError: 0.5
-=======
     animationRotationError: .5
     animationPositionError: .5
     animationScaleError: .5
->>>>>>> f8eb1518a4770665919ad92a8bf2d5ffca202690
     animationWrapMode: 0
     extraExposedTransformPaths: []
     clipAnimations: []
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-<<<<<<< HEAD
-    globalScale: 0.1
-=======
-    globalScale: .100000001
->>>>>>> f8eb1518a4770665919ad92a8bf2d5ffca202690
+    globalScale: 0
     meshCompression: 0
     addColliders: 0
-    importBlendShapes: 0
+    importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
@@ -82,36 +59,17 @@ ModelImporter:
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
-    useFileScale: 0
+    useFileScale: 1
   tangentSpace:
     normalSmoothAngle: 60
-<<<<<<< HEAD
-    normalImportMode: 0
-    tangentImportMode: 4
-=======
     splitTangentsAcrossUV: 1
     normalImportMode: 0
     tangentImportMode: 1
->>>>>>> f8eb1518a4770665919ad92a8bf2d5ffca202690
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
     human: []
     skeleton: []
-<<<<<<< HEAD
-    armTwist: 0.5
-    foreArmTwist: 0.5
-    upperLegTwist: 0.5
-    legTwist: 0.5
-    armStretch: 0.05
-    legStretch: 0.05
-    feetSpacing: 0
-    rootMotionBoneName: 
-    hasTranslationDoF: 0
-  lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
-  humanoidOversampling: 1
-=======
     armTwist: .5
     foreArmTwist: .5
     upperLegTwist: .5
@@ -121,8 +79,7 @@ ModelImporter:
     feetSpacing: 0
     rootMotionBoneName: 
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
->>>>>>> f8eb1518a4770665919ad92a8bf2d5ffca202690
+  animationType: 2
   additionalBone: 0
   userData: 
   assetBundleName: 
