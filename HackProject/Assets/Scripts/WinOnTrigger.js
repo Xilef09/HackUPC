@@ -22,6 +22,6 @@ function OnControllerColliderHit(hit : ControllerColliderHit) {
 		Debug.Log("FIIIIIN");
 		finished = true;
 		//Time.timeScale = 0.0;
-		Application.LoadLevel(2);
+		Application.LoadLevel(Application.loadedLevel+1);
 	}
 }
