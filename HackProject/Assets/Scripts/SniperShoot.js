@@ -2,7 +2,7 @@
 
 public var enemy: Rigidbody;
 private var maxSpeed : float = 10;
-private var periode : float = 1.5;
+private var periode : float = 2.5;
 
 private var time : float = 0;
 
@@ -20,7 +20,7 @@ function Update () {
 	if (time > periode) {
 		time = 0;
 
-		var speed : float = 3.0f;
+		var speed : float = 10.0f;
 		var position : Vector3 = transform.position + Vector3(0, 0, 3);
 
 		var instantiatedenemy : Rigidbody =
