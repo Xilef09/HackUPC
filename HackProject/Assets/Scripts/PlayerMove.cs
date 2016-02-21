@@ -31,4 +31,15 @@ public class PlayerMove : MonoBehaviour {
 			count = count + 1;
 		}
 	}*/
+
+	public void OnCollisionStay(Collision collision)
+	{
+		var otherRigidbody = collision.rigidbody;
+
+		if (otherRigidbody != null && otherRigidbody != GetComponent<Rigidbody>())
+		{
+			var currentVelocity = GetComponent<Rigidbody>().GetComponent<ConstantForce>().force;
+			otherRigidbody.AddForce(GetComponent<Rigidbody>().GetComponent<ConstantForce>().force, ForceMode.Force); 
+		}
+	}
 }

@@ -2,7 +2,7 @@
 
 
 function Update () {
-    if (transform.position.y <= -10)
+    if (transform.position.y <= -20)
     {
         Application.LoadLevel(Application.loadedLevel);
     }

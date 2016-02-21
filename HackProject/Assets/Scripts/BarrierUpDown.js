@@ -8,13 +8,12 @@ function Start () {
 }
 
 function Update () {
-    //Debug.Log("1");
-    if (transform.position.y >= 10){ 
+    if (transform.position.x >= 100){ 
         goingUp = -1;
     }
 
     else if (transform.position.y <= 4) {
-        goingUp = 1;
+
     }
     transform.position += Vector3.up*speed*Time.deltaTime*goingUp;
 }
